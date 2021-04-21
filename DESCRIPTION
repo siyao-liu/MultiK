@@ -1,0 +1,12 @@
+Package: MultiK
+Type: Package
+Title: Objectively selects multiple insightful numbers of clusters K from single cell RNA-seq data. 
+Version: 0.1.0
+Date: 2020-12-29
+Author: Siyao Liu
+Maintainer: Siyao Liu <siyao@email.unc.edu>
+Description: Estimation of optimal cluster number (K) is a crucial step in clustering, and one that is often ignored. Most current scRNAseq group characterization approaches lack a “multi-resolution” perspective by restricting the goal of the analysis to a single resolution level. MultiK is a data-driven tool that allows for objective selection of multiple insightful K, and achieves high robustness by combining multiple resolution solutions together through a consensus approach that also uses sub-sampling.  
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
