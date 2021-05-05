@@ -74,7 +74,7 @@ PlotSigClust(seu, clusters, pval)
 
 
 ## License
-
+This software is licensed under MIT License.
 
 
 ## Contact
