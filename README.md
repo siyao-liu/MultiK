@@ -36,7 +36,7 @@ Note: MultiK re-selects highly variable genes in each subsampling run. Also, Mul
 ## MultiK workflow
 
 ## Example
-For this vignette, we use a 3 cell line mixture dataset published from Dong et al. 2019 () to demonstrate the workflow of MultiK. This dataset is included in the MultiK package.
+For this vignette, we use a 3 cell line mixture dataset published from Dong et al. 2019 (https://pubmed.ncbi.nlm.nih.gov/31925417/) to demonstrate the workflow of MultiK. This dataset is included in the MultiK package.
 
 ```{}
 data(p3cl)
