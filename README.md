@@ -64,7 +64,7 @@ clusters <- getClusters(seu, 3)
 
 Run SigClust at optimal K level:
 ```{}
-pval <- CalcSigClust(seu, clusters)
+pval <- CalcSigClust(seu, clusters$clusters)
 ```
 
 Make diagnostic plots (this includes a dendrogram of cluster centroids with the pairwise SigClust _p_ values mapped on the nodes, and a heatmap of the pairwise SigClust _p_ values)
