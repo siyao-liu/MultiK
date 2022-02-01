@@ -106,7 +106,7 @@ MultiK = function(seu, resolution = seq(0.05, 2, 0.05), nPC = 30, reps = 100, pS
   # step 1: subsampling
   subcol <- list()
   for (i in 1: reps) {
-    subcol[[i]] <- sample(round(ncol(seu) * pSample))
+    subcol[[i]] <- sample(x=ncol(seu), size=round(ncol(seu) * pSample), replace=FALSE)
   }
 
   # step 2: loop over subsampling runs, with each run subsampling 80% of cells, reselect genes for clustering
