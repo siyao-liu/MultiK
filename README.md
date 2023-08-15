@@ -1,4 +1,5 @@
 # MultiK
+## This edited version of MultiK includes fixed bugs and performs SCT or log normalization depending on the slot selected. 
 
 Single cell RNA-seq analysis tool that objectively selects multiple insightful numbers of clusters (*K*).
 
